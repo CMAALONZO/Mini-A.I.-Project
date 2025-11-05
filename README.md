@@ -3,7 +3,7 @@
 This project trains and evaluates Support Vector Machine (SVM) models to predict heart disease using 10 categorical health parameters.
 
 ## Data
-- CSV: `Dataset/heart_disease.csv`
+- [CSV: ](https://github.com/CMAALONZO/Mini-A.I.-Project/tree/567252f3704d2e090acf17bb9726b0b2b543ead8/Dataset)
 - Features (categorical):
   - `Exercise Habits`, `Smoking`, `Family Heart Disease`, `Diabetes`, `High Blood Pressure`,
     `Low HDL Cholesterol`, `High LDL Cholesterol`, `Alcohol Consumption`, `Stress Level`, `Sugar Consumption`
@@ -35,12 +35,12 @@ Simply run the script:
 python Heart_Diseasepy.py
 ```
 
-Outputs will be saved to the `outputs/` folder:
+Outputs will be saved to the [outputs](https://github.com/CMAALONZO/Mini-A.I.-Project/tree/567252f3704d2e090acf17bb9726b0b2b543ead8/outputs) folder:
 - `confusion_matrix.png`
 - `model_accuracies.png`
 - `classification_report.txt`
 
-Artifacts will be saved to `models/`:
+Artifacts will be saved to [models](https://github.com/CMAALONZO/Mini-A.I.-Project/tree/567252f3704d2e090acf17bb9726b0b2b543ead8/models):
 - `svm_tuned_rbf.joblib`
 - `onehot_encoder.joblib`
 
@@ -51,3 +51,4 @@ After training, the script will ask if you want to perform a live prediction. If
 - Missing categorical values are filled with `"Unknown"` and treated as a separate category.
 - The OneHotEncoder uses `handle_unknown='ignore'` so inputs outside training categories won't crash; they will be ignored.
 - Plots are saved using a non-interactive backend. Set `SHOW_PLOTS = True` in the script to display figures interactively (if supported).
+
