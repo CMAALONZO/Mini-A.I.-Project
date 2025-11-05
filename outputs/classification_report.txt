@@ -1,0 +1,11 @@
+Classification Report (Tuned RBF)
+Best Params: {'C': 0.1, 'gamma': 'scale'}
+
+              precision    recall  f1-score   support
+
+          No     0.8000    1.0000    0.8889      1600
+         Yes     0.0000    0.0000    0.0000       400
+
+    accuracy                         0.8000      2000
+   macro avg     0.4000    0.5000    0.4444      2000
+weighted avg     0.6400    0.8000    0.7111      2000
